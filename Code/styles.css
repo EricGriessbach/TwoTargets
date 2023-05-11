@@ -55,4 +55,11 @@ body {
     font-size: 24px;
     display: none;
   }
+  .checkbox-container {
+    display: flex;
+    align-items: center;
+    position: absolute;
+    top: -20px;
+    left: 0;
+  }
   
