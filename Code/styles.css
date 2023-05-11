@@ -1,0 +1,58 @@
+body {
+    margin: 0;
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+  }
+  
+  #gameContainer {
+    width: 90vw;
+    height: 90vh;
+    position: relative;
+  }
+  
+  #gameCanvas {
+    display: block;
+    background-color: black;
+    width: 100%;
+    height: 100%;
+  }
+  
+  #toggleMapping {
+    position: absolute;
+    top: -20px;
+    left: 0;
+    cursor: pointer;
+}
+  
+  p {
+    position: absolute;
+    top: -20px;
+    right: 0;
+    margin: 0;
+  }
+  
+  .scoreDisplay {
+    position: absolute;
+    top: 10px;
+    left: 50%;
+    transform: translateX(-50%);
+    color: white;
+    font-weight: bold;
+    font-size: 14px;
+  }
+  
+  .pointsReceived {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+    font-weight: bold;
+    font-size: 24px;
+    display: none;
+  }
+  
